@@ -1,3 +1,14 @@
+import {Row, Col, Container} from 'react-bootstrap'
+
+
 export default function FooterComponent () {
-    return <p> I'm a Footer Component. </p>
+    return (
+        <footer>
+          <Container fluid>
+            <Row>
+              <Col className="text-white bg-dark py-5 text-center">Copyright &copy; {(new Date().getFullYear())} Best Online Shop</Col>
+            </Row>
+          </Container>
+        </footer>
+    )
 }
