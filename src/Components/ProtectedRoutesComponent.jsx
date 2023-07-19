@@ -1,5 +1,5 @@
 import { Outlet, Navigate } from "react-router-dom";
-import UserChatComponent from "./user/UserChatComponent";
+import UserChatComponent from "./user/Chat/UserChatComponent";
 
 export default function ProtectedRoutesComponent({admin}){
     // let auth = false;
