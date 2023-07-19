@@ -6,7 +6,7 @@ export default function FooterComponent () {
         <footer>
           <Container fluid>
             <Row>
-              <Col className="text-white bg-dark py-5 text-center">Copyright &copy; {(new Date().getFullYear())} Best Online Shop</Col>
+              <Col className="text-white bg-dark py-4 text-center">Copyright &copy; {(new Date().getFullYear())} Best Online Shop</Col>
             </Row>
           </Container>
         </footer>
